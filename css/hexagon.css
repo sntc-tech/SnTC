@@ -163,6 +163,7 @@ footer p{
     }
     .modifier{
         text-align: center;
+        padding: 0;
 
     }
     .modifier2 {
@@ -178,6 +179,9 @@ footer p{
     .modifier4{
         text-align: center;
         font-size: 300px;
+    }
+    .container2{
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 749px) {

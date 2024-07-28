@@ -97,6 +97,17 @@ body {
 .card-hover p {
     margin: 0;
 }
+
+@media screen and (max-width: 550px) {
+
+    .card:hover {
+        height: 500px;
+    }
+    .card4:hover,.card1:hover {
+        height: 1000px;
+    }
+    
+}
 @media only screen and (max-width: 720px) {
 
     .card:hover {
@@ -105,15 +116,13 @@ body {
     .card4:hover,.card1:hover {
         height: 1000px;
     }
-    
-}
-@media screen and (max-width: 550px) {
 
-    .card:hover {
-        height: 500px;
+    .profile-overlay h2{
+        margin:0;
+
     }
-    .card4:hover,.card1:hover {
-        height: 1000px;
+    .profile-overlay .social-links{
+        padding-top: 1.5vw;
     }
     
 }

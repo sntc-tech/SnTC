@@ -140,6 +140,9 @@ nav.oval-nav {
         transform: none;
         margin-bottom: 10px;
     }
+    .sep-1{
+        display: none;
+    }
 }
 
 
@@ -443,7 +446,6 @@ header {
 @media (max-width: 750px) {
     .hid-obj{
         display: none;
-    
     }
 }
 

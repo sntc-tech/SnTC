@@ -120,4 +120,16 @@ body {
     fill: #0077b5; /* LinkedIn color */
 }
 
+@media (max-width: 750px) {
+    .profile-overlay h2{
+        margin:0;
 
+    }
+    .profile-overlay .social-links{
+        padding-top: 1.5vw;}
+    .social-links a{
+        padding-top: 15px;
+    }
+
+
+}
