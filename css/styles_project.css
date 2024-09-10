@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vw; 
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+ .main-not-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+   
+}
+.project:hover  .main-not-overlay{
+    display: none;
+}
+.project:hover .overlay {
+    opacity: 1;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+    margin: 10px 0;
+    font-size: 3.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project p {
+    color: #ddd;
+}
+
+.project .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.project .btn:hover {
+    background: #555;
+}
+.lead-mem{
+    display: none;
+}
+@media screen and (max-width: 990px) {
+    .project {
+        height: 500px;}
+    p{
+        display: none;
+    }
+    .money{
+        display: block;
+    }
+    .copyright-text{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 570px) {
+    .overlay li{
+        display: none;
+    }
+    .lead-mem{
+        display: block;
+    }
+    .project h2 {
+        margin: 10px 0;
+        font-size: 1.5rem;
+    }
+    .lead-mem{
+        display: block;
+    }
+    .copyright-text{
+        display: block;
+    }
+    .project {
+        height: 300px;
+    }
+}

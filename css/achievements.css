@@ -1,0 +1,128 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.medals-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.medal {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.medal img {
+    width: 80px;
+    height: 80px;
+}
+
+.achievements-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.card {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin: 15px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    cursor: pointer;
+    transition: height 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    height: 300px; 
+    opacity: 1;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+    opacity: 1;
+}
+
+.card-hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card:hover .card-hover {
+    opacity: 1;
+}
+
+.card:hover {
+    height: 400px; 
+    transform: scale(1.05);
+    
+}
+
+.card4:hover,.card1:hover {
+    height: 700px; 
+    transform: scale(1.05);
+}
+
+.card-hover h2 {
+    margin-bottom: 20px;
+}
+
+.card-hover p {
+    margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+
+    .card:hover {
+        height: 500px;
+    }
+    .card4:hover,.card1:hover {
+        height: 1000px;
+    }
+    
+}
+@media only screen and (max-width: 720px) {
+
+    .card:hover {
+        height: 400px;
+    }
+    .card4:hover,.card1:hover {
+        height: 1000px;
+    }
+
+    .profile-overlay h2{
+        margin:0;
+
+    }
+    .profile-overlay .social-links{
+        padding-top: 1.5vw;
+    }
+    
+}

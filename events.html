@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SNTC Events | IIT Mandi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Official Website for Science and Technical Council (Technical Society) of IIT Mandi">
+    <meta name="keywords" content="iit mandi, sntc, technical society, students, technical clubs">
+    <link rel="icon" type="image/png" href="./images/favicon.jpg" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/wheel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/hexagon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/raphael.min.js"></script>
+    <script src="js/raphael.icons.min.js"></script>
+    <script src="js/wheelnav.min.js"></script>
+    <script src="js/documentation.min.js"></script>
+    <script src="js/spinit.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/events.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header class="content-boxers">
+        <div class="header-content">
+            <div class="logo-container" style="pointer-events: auto;">
+                <a href="./index.html#about">
+                    <img class="logo" src="./images/logo_nobg.png" alt="Logo" height="90vw">
+                </a>
+                <button class="dropdown-button" onclick="toggleDropdown()">
+                    <svg class="icon-menu" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6h16M4 12h16m-16 6h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-close" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 18L18 6M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <h1 class="def">
+                    Science and Technology Council
+                    <span id="college">
+                        IIT Mandi
+                    </span>
+                </h1>
+            </div>
+             
+            <nav class="oval-nav">
+                <div class="nav-links">
+                    <div style="pointer-events: auto; "><a href="./index.html#clubs" class="top-text " id="t2" onclick="clickClub()">Clubs</a></div>
+                    <div style="pointer-events: auto; "><a href="./index.html#cells" class="top-text " onclick="closeDropdown()" id="t1">Cells</a></div>
+                <div style="pointer-events: auto; "><a href="./index.html#offerings" class="top-text" onclick="closeDropdown()" id="t3" >Offerings</a></div>
+                <div style="pointer-events: auto; "><a href="./index.html#Inter-IIT" class="top-text" onclick="closeDropdown()" id="t4" >Inter IIT</a></div>
+                <div style="pointer-events: auto; "><a href="./index.html#contactUs" class="top-text" onclick="closeDropdown()" id="t5" >Contact</a></div>
+                <div style="pointer-events: auto; "><a href="./SnTC_core.html" class="top-text" onclick="closeDropdown()" id="t6" >Team SnTC</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <a href="utkarsh.html" class="card-link">
+        <div class="event-card">
+            <img src="./images/utkarsh.png" alt="Event 1" class="event-img">
+            <div class="event-content">
+                <h2 class="event-title">Utkarsh</h2>
+                <p class="event-description">Our annual intra-college tech fest, fostering innovation through a vibrant series of events from all SnTC clubs.</p>
+            </div>
+        </div></a>
+ 
+        <div class="event-card">
+            <img src="./images/Xpecto.png" alt="Event 2" class="event-img" >
+            <div class="event-content">
+                <h2 class="event-title">Xpecto</h2>
+                <p class="event-description">IIT Mandi's premier tech fest, celebrating innovation via electrifying competitions and cutting-edge workshops</p>
+            </div>
+        </div>
+        <div class="event-card" >
+            <img src="./images/Bootcamp.jpg" alt="Event 2" class="event-img">
+            <div class="event-content">
+                <h2 class="event-title">Inter-IIT Bootcamp</h2>
+                <p class="event-description">Empower Your Skills, Expand Your Horizons!! Inter-IIT Bootcamp Awaits!</p>
+            </div>
+        </div>
+        <!-- Add more event cards as needed -->
+    </div>
+    <footer>
+        <div class="container content-boxers copyright-text" >
+            <p style="text-align: center;" class="footer-txt" >Copyright © 2024 All Rights Reserved by SnTC,IIT Mandi</p>
+        </div>
+    </footer>
+    <script >
+        particlesJS('particles-js',
+        {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#01bcd0"
+                },
+                "shape": {
+                    "type": "triangle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": false,
+                    "anim": {
+                        "enable": true,
+                        "speed": 3.16,
+                        "opacity_min": 0.23,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 144,
+                    "color": "#ffffff",
+                    "opacity": 0.384,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 4,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>

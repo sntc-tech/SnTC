@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SNTC | IIT Mandi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Official Website for Science and Technical Council (Technical Society) of IIT Mandi">
+    <meta name="keywords" content="iit mandi, sntc, technical society, students, technical clubs">
+    <link rel="icon" type="image/png" href="./images/favicon.jpg" />
+    <link rel="stylesheet" href="css/sntc_core.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/wheel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/hexagon.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/raphael.min.js"></script>
+    <script src="js/raphael.icons.min.js"></script>
+    <script src="js/wheelnav.min.js"></script>
+    <script src="js/documentation.min.js"></script>
+    <script src="js/spinit.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body id="body-content" >
+    <div id="particles-js"></div>
+
+     <!-- pop up -->
+     <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="close-popup" class="close">&times;</span>
+            <a href="utkarsh.html"><img src="images/Bootcamp.jpg" alt="Utkarsh" class="popup-img"></a>
+            
+        </div>
+    </div>
+    <script src="js/popup.js"></script>
+    <section id="about">
+    
+        <header class="content-boxers">
+            <div class="header-content">
+                <div class="logo-container" style="pointer-events: auto;">
+                    <a href="#about">
+                        <img class="logo" src="./images/logo_nobg.png" alt="Logo" height="90px">
+                    </a>
+                    <button class="dropdown-button" onclick="toggleDropdown()">
+                        <svg class="icon-menu" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 6h16M4 12h16m-16 6h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <svg class="icon-close" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 18L18 6M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <h1 class="def">
+                        Science and Technology Council
+                        <span id="college">
+                            IIT Mandi
+                        </span>
+                    </h1> 
+                </div>
+
+                
+                <nav class="oval-nav">
+                    <div class="nav-links">
+                        <div style="pointer-events: auto; "><a href="#clubs" class="top-text " id="t2" onclick="clubClick()">Clubs</a></div>
+                        <div style="pointer-events: auto; "><a href="#cells" class="top-text " onclick="closeDropdown()" id="t1">Cells</a></div>
+                        <div style="pointer-events: auto; "><a href="#offerings" class="top-text" onclick="closeDropdown()" id="t3">Offerings</a></div>
+                        <div style="pointer-events: auto; "><a href="#Inter-IIT" class="top-text" onclick="closeDropdown()" id="t4">Inter-IIT</a></div>
+                        <div style="pointer-events: auto; "><a href="#contactUs" class="top-text" onclick="closeDropdown()" id="t5">Contact</a></div>
+                        <div style="pointer-events: auto; "><a href="./SnTC_core.html" class="top-text"  onclick="closeDropdown()" id="t6">Team SnTC</a></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+       
+
+
+    <div class="container marketing content-boxers">
+        <div class="col-xs-12 col-sm-12 col-md-12  col-lg-7">
+            <div class="service-head typewriter1 modifier2">Science and </div>
+            <div class="service-head typewriter2 modifier2">Technology Council</div>
+            <p class="list-def">SnTC is IIT Mandi's Technical Society where innovation and excellence come to play! As the vibrant umbrella of our tech clubs, SnTC sparks transformative advancements across countless fields. Our dynamic team of tech enthusiasts and experts are always pushing the boundaries of what's possible, turning wild ideas into cutting-edge projects that revolutionize industries and improve lives around the globe.
+                
+            </p>
+        </div>
+        <div class="separator col-lg-1 container hid-obj sep-1"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+        <div class="content-boxers col-sm-12 col-md-12 col-lg-4" style="margin-bottom: 50px;">
+
+            <a href="https://instagram.com/tech.xpecto/" target="_blank"><img class="logo-def content-boxers" src="./images/Xpecto.png" style="height: 250px;width: 300px; pointer-events: auto;"></a>
+            <button class="btn btn-lg btn-default content-boxers hid-obj" style="margin-top: 10px ;pointer-events: auto;"><a href="https://instagram.com/tech.xpecto/" target="_blank">IIT Mandi's Signature Technical Carnival </a></button>
+        </div>
+    </div>
+    </section >
+    <section id="clubs" >
+        <div class="container service-head col-xs-12 col-sm-12 col-md-12 col-lg-12 typewriter1 modifier2 modifier3" style="justify-content: center;align-items: center;padding-left:5vw ;text-align: center;">Technical Clubs</div><br>
+        <div class="container marketing content-boxers "  >
+            <div class="list-def col-xs-12 col-sm-12 col-md-12 col-lg-12 modifier">
+                SnTC is a body of students advised by faculty. SnTC constitutes of eight prominent clubs each coordinated by coordinators and comprises of students of similar interest. Each club is advised by a faculty advisor and a co-advisor. All the clubs are open for all the students of IIT Mandi. However, a core team is formed for efficient running of the club.
+            </div>
+
+        </div>
+        <div class="container marketing content-boxers col-md-12" id="home"style="pointer-events: auto;" >
+            <div class="row featurette  content-boxers" style="pointer-events: auto;align-items: center;justify-content: center;">
+                <div class="col-lg-5 col-md-12  content-boxers" style="pointer-events: auto;align-items: center;">
+                    <div id="indexDiv" class="wheelNav400 col-md-12  content-boxers" style="pointer-events: auto;align-items: center;"></div>
+                </div>
+                <div class="col-lg-7 col-md-12 content-boxers" id="wheeldef" style="pointer-events: auto;align-items: center;">
+    
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs  content-boxers" id="tabDefaultNav" hidden="hidden" style="pointer-events: auto;">
+                        <li><a class="active" href="#tabSNTC" data-toggle="tab">SNTC</a></li>
+                        <li><a href="#tabProgramming" data-toggle="tab">Programming</a></li>
+                        <li><a href="#tabRobotronics" data-toggle="tab">Robotronics</a></li>
+                        <li><a href="#tabEcell" data-toggle="tab">Ecell</a></li>
+                        <li><a href="#tabYantrik" data-toggle="tab">Yantrik</a></li>
+                        <li><a href="#tabNirmaan" data-toggle="tab">Nirmaan</a></li>
+                        <li><a href="#tabStac" data-toggle="tab">STAC</a></li>
+                        <li><a href="#tabKbg" data-toggle="tab">X</a></li>
+                        <li><a href="#tabSae" data-toggle="tab">X</a></li>
+                    </ul>
+    
+                    <!-- Tab panes -->
+                    <div class="tab-content  content-boxers" style="pointer-events: auto;">
+                      <div class="tab-pane fade in active" id="tabSNTC">
+                          <h2 class="featurette-heading">Science and Technology Council</h2>
+                          <h3>
+                              <span class="text-muted">
+                                The technical society of IIT Mandi or Science and Technology Council (SNTC) IIT Mandi consists of technical clubs for programming, Bioengineering, automotive engineering, robotics, astronomy, mechanics, civil engineering and entrepreneurship. One unique feature of the Institute’s Technical Society is that all the clubs support open participation i.e. all the students are free to join a club at any point of time and dedicated students are rewarded accordingly. Members of the technical society also enthusiastically represent the college in national events and have brought several laurels for the institute.
+                              </span>
+                          </h3>
+                          <!-- <p class="lead"><a href="http://pc.iitmandi.co.in/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p> -->
+                      </div>
+                        <div class="tab-pane fade" id="tabProgramming">
+                            <h2 class="featurette-heading">Programming Club (KamandPrompt)</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    An enthusiastic coder ? Here is the club for you. It is a club dedicated to programming related activities. It keeps you updated with all the programming related activities and competitions. It also organizes several competitions and workshops to increase coding skills. The Association for Computing and Machinery(ACM) Chapter at IIT Mandi organizes various guest lectures and tutorials from time to time.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="http://pc.iitmandi.co.in/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabRobotronics">
+                            <h2 class="featurette-heading">Robotronics Club</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    Robotics + Electronics = Robotronics. This club works in the field of both robotics and electronics. In electronics domain, it works on analog and digital electronics helping in developing practical skills in building and designing circuits. On the other hand in robotics it provides everything that students need to build robots : workspace , tools, supplies, money and experienced people to answer questions and help with projects.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="http://robotronics.iitmandi.co.in/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabEcell">
+                            <h2 class="featurette-heading">Entrepreneurship Cell</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    E-Cell is a holographic abbreviation adopted by the entrepreneurship club of IIT Mandi. It's an alumnus initiation and currently is the stewardship of a team of five inter-disciplinary students with the mentorship of Dr. Satvasheel Powar, churning their ideas to reach the various aspects of what lies in this "business" of reaching the society. And as the name celebrates our crazy love for subjects related to business and its disciplinaries we always strive to give a glimpse of the potions of business by conducting multifarious of events.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="https://ecell.iitmandi.co.in/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabYantrik">
+                            <h2 class="featurette-heading">Yantrik Club</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    As a part of the technical council of IIT Mandi, this club plays a cruical role in the field of mechanical engineering. It focuses on developing green and effective energy methods. It organizes activities like arCAD, MechFest.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="https://yantrik.iitmandi.co.in" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabNirmaan">
+                            <h2 class="featurette-heading">Nirmaan Club</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    Nirmaan Club aims at creating a realization among students of the importance of Civil Engineering aspects in day to day which are often ignored by organizing events, workshops, quizzes, projects etc.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="https://www.facebook.com/groups/802179339895110/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabStac">
+                            <h2 class="featurette-heading">Space Technology and Astronomy Cell (STAC)</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    STAC aims at making students familiar with everything related to Astronomy, Space and Open Source development in the field of Space Technology. The club has 2 telescopes, a 12" telescope under construction, a pair of binoculars and organizes frequent star-gazing sessions and undertakes several interesting technical projects.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="http://stac.iitmandi.co.in/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabKbg">
+                            <h2 class="featurette-heading">Kamand Bioengineering Group (KBG)</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    At the juncture of biology and engineering, KBG offers exposure to a multitude of outlooks and a broad variety of topics including computational biology, genetics, neuroscience, biomechanics, biotechnology, nanotechnology, biomimetics and other associated forks diverging from the interplay of nature's craft and the intellectual desire to grasp it.
+                                </span>
+                            </h3>
+                            <p class="lead"><a href="https://www.instagram.com/kbg_iitmandi/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="tabSae">
+                            <h2 class="featurette-heading">Society of Automative Engineers (SAE)</h2>
+                            <h3>
+                                <span class="text-muted">
+                                    SAE IIT Mandi is a enthusiastic, motivated and passionate team of engineers whose interest resides in gears, suspensions, engines, brakes etc., talking in a nutshell an automobile.                            </span>
+                            </h3>
+                            <p class="lead"><a href="https://clubsae.iitmandi.co.in/" target="_blank" class="btn btn-lg btn-default">Visit Website</a></p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cells" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <div class="container service-head col-xs-12 col-sm-12 col-md-12 col-lg-12 typewriter1 modifier2 modifier3" 
+             style="padding-left: 5vw; text-align: center;">
+            Cells @ IIT Mandi
+        </div>
+        <br>
+        <div class="cells-container content-boxers" style="pointer-events: auto; display: flex; flex-direction: column; align-items: center;">
+            <div class="container2" style="display: flex; justify-content: center;">
+                <div class="cells-box happy-color-1" style="margin: 10px;">
+                    <div class="cells-overlay">
+                        <p>GDSC stands for Google Developer Student Clubs. Google DSCs are a program run by Google to support and empower students who are interested in technology. They provide resources and support for students to learn and apply their skills, including access to Google technologies, mentorship from Google experts, and opportunities to connect with other students and professionals in the tech industry</p>
+                    </div>
+                </div>
+                <div class="cells-box happy-color-2" style="margin: 10px;">
+                    <div class="cells-overlay">
+                        <p>At Heuristics we focus on enhancing the culture of Data Science, Machine Learning at IIT Mandi. It also expands to solve complex optimization problems. It underlies the whole field of Artificial Intelligence and the computer simulation of thinking, as they may be used in situations where there are no known algorithms. We organize regular events, challenges and workshops.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container2" style="display: flex; justify-content: center;">
+                <div class="cells-box happy-color-3" style="margin: 10px;">
+                    <div class="cells-overlay">
+                        <p>The CG2D Club is a community for digital creativity and interactive entertainment. We offer workshops, projects, and seminars on 3D modeling, animation, game design, and real-time rendering. Our programs help members create stunning visuals and immersive games. Whether you're an experienced developer or a beginner, CG2D provides the resources and support to excel in computer graphics and game development.</p>
+                    </div>
+                </div>
+                <div class="cells-box happy-color-4" style="margin: 10px;">
+                    <div class="cells-overlay">
+                        <p>Welcome to S.A.I.C (System Administration and Infosec Cell) at IIT Mandi! Our team of cyber enthusiasts excels in Capture The Flag (CTF) competitions and outsmarting hackers. We host and maintain secure websites with style and finesse. Passionate about penetration testing? We’ll teach you how to spot vulnerabilities faster than campus Wi-Fi. Discover fun injections that challenge even the pros. Join us to help script a future where security breaches are history. At S.A.I.C, we're dedicated to making the digital world safer, one hack at a time!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="offerings" >
+    <div class="container marketing content-boxers" >
+        <div id="services">
+            <div class="container service-head col-xs-12 col-sm-12 col-md-12 col-lg-12 typewriter1 modifier3 modifier2" >Offerings by SnTC</div>
+            <ul class="service-list" style="list-style-type: none; ">
+                <li>
+                    <div class="service-card ">
+                        <h3><div style="pointer-events: auto;"><a href="./events.html">Organising and Managing Events</a></div></h3>
+                        <p> SnTC organizes and manages major events like Expecto.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+                        <h3><div style="pointer-events: auto; "><a href="./projects.html" >Project Work</a></div></h3>
+                        <p>SnTC offers and manages all the projects like URC,Cansat etc.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+                        <h3><div style="pointer-events: auto; "><a href="https://saic.iitmandi.co.in/" target="_blank"  >Hosting Services</a></div></h3>
+                        <p>Student Projects can also be hosted on SNTC Server.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+                        <h3><div style="pointer-events: auto; "><a href="https://tip.iitmandi.co.in" target="_blank" >Technical Induction Program</a></div></h3>
+                        <p> Aimed at introducing the participants with key technical skills.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <section id="Inter-IIT" >
+        
+        <div class="container marketing content-boxers inter-iit-blk" style="display: flex;">
+            
+            <div class="content-boxers col-sm-11 col-md-11  col-lg-4 hid-obj" s>
+                <img class="logo-def content-boxers hid-obj" src="./images/Achievements.png" style="height: 250px;width: 300px; pointer-events: auto;margin-top: 0;">
+                <button class="btn btn-lg btn-default content-boxers hid-obj" style="margin-top: 10px ;pointer-events: auto;"><a href="./achievements.html">Achievements </a></button>
+            </div>
+            <div class="separator col-lg-1 col-sm-1 col-xs-1 col-md-1 container hid-obj"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-7 modifier">
+                <div class="service-head typewriter1 typewriter3  modifier3 modifier4 hid-obj">Inter-IIT </div>
+                <div class="service-head typewriter2 typewriter4 modifier3 modifier4 hid-obj">Tech Meet</div>
+                <div class="service-head typewriter2 typewriter4 modifier3 modifier4 dis-obj" style="margin-top: 0;">Inter-IIT Tech Meet</div>
+                <p class="list-def modifier">Inter IIT Tech Meet is the annual technological competition organized by the Indian Institutes of Technology and qualifies as the only technical event wherein all the IITs participate. This event is hosted in cycle by one of the participating institutions. At end of each Tech Meet the next host IIT is chosen by mutual consensus.
+                    <br>
+                        IIT Mandi is proud to display its achievements and strides displayed by our brilliant contingents.
+                    <p>
+                    <button class="btn btn-lg btn-default content-boxers dis-obj" style="margin-top: 10px ;pointer-events: auto;"><a href="./achievements.html">Achievements </a></button>
+                </p>
+            </div>
+        </div>
+    </section>
+<section id="contactUs" >
+    <div class="container marketing content-boxers" id="contact" style="margin: 0;align-items: center;width: 100%;">
+        <div class=" col-lg-6 col-sm-12 col-md-6 contact-right circle-holder content-boxers" style="padding-top: 0;margin-top: 0;">
+            <img src="images/vaibhav.jpg" class="circle " ></div>
+            <div class="list-head col-lg-6 col-sm-12 col-md-6 contact-right circle-holder content-boxers" style="padding-top: 0; margin-top: 0; align-items: center; text-align: center; display: flex; flex-direction: column; justify-content: center;">
+                <p class="speaker-text speaker-name lead-name" style=" white-space: nowrap;">Vaibhav Kesharwani</p>
+                <p class="speaker-text speaker-about lead-title" >Technical Secretary</p>
+                <div style="pointer-events: auto;">
+                    <p class="speaker-text speaker-about" style="font-size: 20px;padding-bottom: 10px;">
+                        <i class="fas fa-envelope"></i>
+                        <a class="speaker-text speaker-about" href="mailto:technical_secretary@students.iitmandi.ac.in" > technical_secretary@students.iitmandi.ac.in</a>
+                    </p>
+                </div> 
+                <div class="social-links" style="align-items: center; display: flex; justify-content: center;">
+                    <div style="pointer-events: auto; width: auto; display: flex;">
+                        <a href="https://www.linkedin.com/in/born-engineer73/" target="_blank" class="social-icon linkedin" style="font-size: 24px; margin-right: 10px;">
+                            <!-- LinkedIn SVG icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 64 64">
+                                <path d="M48,8H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8V16C56,11.582,52.418,8,48,8z M24,47h-5V27h5 V47z M24.029,23.009C23.382,23.669,22.538,24,21.5,24c-1.026,0-1.865-0.341-2.519-1.023S18,21.458,18,20.468 c0-1.02,0.327-1.852,0.981-2.498C19.635,17.323,20.474,17,21.5,17c1.038,0,1.882,0.323,2.529,0.969 C24.676,18.615,25,19.448,25,20.468C25,21.502,24.676,22.349,24.029,23.009z M47,47h-5V35.887C42,32.788,40.214,31,38,31 c-1.067,0-2.274,0.648-2.965,1.469S34,34.331,34,35.594V47h-5V27h5v3.164h0.078c1.472-2.435,3.613-3.644,6.426-3.652 C44.5,26.5,47,29.5,47,34.754V47z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/born_engineer73/" target="_blank" class="social-icon instagram" style="font-size: 24px;">
+                            <!-- Instagram SVG icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#fd5"></stop>
+                                    <stop offset=".328" stop-color="#ff543f"></stop>
+                                    <stop offset=".348" stop-color="#fc5245"></stop>
+                                    <stop offset=".504" stop-color="#e64771"></stop>
+                                    <stop offset=".643" stop-color="#d53e91"></stop>
+                                    <stop offset=".761" stop-color="#cc39a4"></stop>
+                                    <stop offset=".841" stop-color="#c837ab"></stop>
+                                </radialGradient>
+                                <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
+                                <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#4168c9"></stop>
+                                    <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
+                                </radialGradient>
+                                <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20C42.014,38.383,38.417,41.986,34.017,41.99z"></path>
+                                <path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path>
+                                <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+                                <path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>  
+        
+    </div>
+</section >
+    <footer>
+        <div class="container marketing content-boxers " >
+            <div class="col-lg-12" style="text-align: center;padding-top: 3vw;"> For any queries related to Science and Technology Council (SnTC) or any of its clubs,
+            <br>We are always here to help you.Please contact the Core Team.</div>
+           
+        </div>
+        <div class="container content-boxers copyright-text" >
+            <p style="text-align: center;" class="footer-txt" >Copyright © 2024 All Rights Reserved by SnTC,IIT Mandi</p>
+        </div>
+    </footer>
+</div>
+    <script >
+        particlesJS('particles-js',
+        {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#01bcd0"
+                },
+                "shape": {
+                    "type": "triangle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": false,
+                    "anim": {
+                        "enable": true,
+                        "speed": 3.16,
+                        "opacity_min": 0.23,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 144,
+                    "color": "#ffffff",
+                    "opacity": 0.384,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 4,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/hybicon@1.4.0/js/hybicon.min.js"></script>
+</body>
+</html>

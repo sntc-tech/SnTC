@@ -1,0 +1,78 @@
+̥̥̥ @font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
+  src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"),
+       url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"),
+       url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"),
+       url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(62, 68, 71);
+  color: #8b8e94;
+  line-height: 28px;
+  font-size: 15px;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+
+b {
+  color: #6A41ED;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #181920;
+  line-height: 1.5;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #6A41ED;
+}
+
+h3 {
+  font-size: 28px;
+  color: #00bcd7 !important;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5, h6 {
+  font-size: 14px;
+  color: white;
+}
+
+p, ul, ol {
+  margin-bottom: 30px;
+}
+
+a {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  color: #6a41ed;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #582aeb;
+  text-decoration: none;
+}
+
+
+
