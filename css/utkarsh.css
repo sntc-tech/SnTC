@@ -1,7 +1,7 @@
 .event-section {
     display: flex;
     flex-direction: row;
-    background-color: rgb(249, 245, 218);
+    background-color: #18181b55;
     padding: 20px;
     margin: 18px;
     border-radius: 15px;
@@ -27,7 +27,7 @@
     height: 400px; 
     min-width: 100px;
     min-height: 100px;
-    object-fit: fill; 
+    object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
@@ -49,13 +49,13 @@
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #333;
+    color: #f1fafb;
 }
 
 .event-description {
     font-size: 16px;
     margin-bottom: 15px;
-    color: #555;
+    color: #f1fafbaa;
     line-height: 1.7;
 }
 
